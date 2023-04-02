@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>jQuery 2</title>
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" href="images/jq.png">
+	</head>
+    <body>
+        <!--load-->
+        <!--pop up-->
+        <div class="pop">
+            <div class="inner-pop">
+                <h3 class="color h3 border">jQuery</h3><a><i class="fas fa-times close color"></i></a>
+                <p class="color">jQuery is a JavaScript library designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax. It is free, open-source software using the permissive MIT License. As of May 2019, jQuery is used by 73% of the 10 million most popular websites. Web analysis indicates that it is the most widely deployed JavaScript library by a large margin, having at least 3 to 4 times more usage than any other JavaScript library .</p>
+            </div>
+        </div>
+
+        <!--navbar-->
+        <nav class="navbar background">
+            <div class="container">
+                <a href="#" data-scroll="home" id="logo">jQuery</a>
+                <ul>
+                    <li><a href="#" data-scroll="home" class="active">home</a></li>
+                    <li><a href="#" data-scroll="skills">skills</a></li>
+                    <li><a href="#" data-scroll="services">services</a></li>
+                    <li><a href="#" data-scroll="solutions">solutions</a></li>
+                    <li><a href="#" data-scroll="products">products</a></li>
+                    <li><a href="#" data-scroll="contact">contact us</a></li>
+                    <li><i class="fas fa-cog"></i></li>
+                </ul>
+                <div class="settings show">
+                    <h3 class="title-color color">Change Colors</h3>
+                    <ul>
+                        <li data-colors="#003e72"></li>
+                        <li data-colors="#2c3e50"></li>
+                        <li data-colors="#8e44ad"></li>
+                        <li data-colors="#16a085"></li>
+                        <li data-colors="#d35400"></li>
+                    </ul>
+                </div>
+            </div>
+
+        </nav>
+        <i class="fas fa-bars color"></i>
+        <i class="fas fa-times color close-list"></i>
+        <!--home-->
+        <div class="home hei " id="home">
+            <div class="master-img">
+                <i class="fas fa-chevron-left color"></i>
+                <i class="fas fa-chevron-right color"></i>
+                <img src="images/1.jpg" alt="">
+                <div class="cont-h1">
+                    <h1 class="text" data-text='Welcome To This Site " Created By JQuery "'><span class="cursor background"></span></h1>
+                    <button class="nth-pop">
+                        <span class="">More ...</span>
+                        <span class="background"></span>
+                        <span class="left background2"></span>
+                    </button>
+                </div>
+            </div>
+            <div class="select-img">
+                <img src="images/1.jpg" alt="" class="selected-active border2">
+                <img src="images/2.jpg" alt="" class="border2">
+                <img src="images/3.jpg" alt="" class="border2">
+                <img src="images/4.jpg" alt="" class="border2">
+                <img src="images/5.jpg" alt="" class="border2">
+            </div>
+        </div>
+        <!--skills us-->
+        <div class="skills hei" id="skills">
+            <div class="container">
+                <h2 class="color title">Skills</h2>
+                <div class="cont-pro">
+                    <div class="pro">
+                        <span data-pro = "70"></span>
+                    </div>
+
+                    <div class="pro">
+                        <span data-pro = "30"></span>
+                    </div>
+
+                    <div class="pro">
+                        <span data-pro = "50"></span>
+                    </div>
+
+                    <div class="pro">
+                        <span data-pro = "40"></span>
+                    </div>
+
+                    <div class="pro">
+                        <span data-pro = "80"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--services-->
+        <div class="services hei" id="services">
+            <h2 class="color title">services</h2>
+            <div class="cards-image">
+                <div><img src="images/5.jpg" alt="" class="card"></div>
+                <div><img src="images/4.jpg" alt="" class="card"></div>
+                <div><img src="images/3.jpg" alt="" class="card"></div>
+                <div><img src="images/2.jpg" alt="" class="card"></div>
+                <div><img src="images/1.jpg" alt="" class="card"></div>
+            </div>
+            <h3 class="color border2 Attention">Tasks List</h3>
+            <div class="tasks">
+                <h3 class="color border2">Tasks</h3>
+                <ul>
+                    <li>task 1 <i class="fas fa-times close-task"></i></li>
+                    <li>task 2 <i class="fas fa-times close-task"></i></li>
+                    <li>task 3 <i class="fas fa-times close-task"></i></li>
+                </ul>
+                <form class="add-task">
+                    <input type="text" placeholder="Add New task" class="input-task">
+                </form>
+            </div>
+        </div>
+
+
+        <!--solutions-->
+        <div class="solutions hei" id="solutions">
+            <div class="container">
+                <h2 class="color title">Solutions</h2>
+                <div class="cont-solutions">
+                    <div class="solution1 active">
+                        <img src="images/1.jpg">
+                        <p class="color">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce interdum nulla eget ligula posuere tristique. Curabitur eu tincidunt elit, vitae dignissim ipsum. Nunc et ultricies massa, et vulputate libero. Nullam ante diam, molestie eu nunc non, laoreet semper turpis. Ut tempor leo mi, id facilisis sapien vestibulum et.</p>
+                    </div>
+                    <div class="solution1" style="top :-700px">
+                        <img src="images/2.jpg">
+                        <p class="color">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce interdum nulla eget ligula posuere tristique. Curabitur eu tincidunt elit, vitae dignissim ipsum. Nunc et ultricies massa, et vulputate libero. Nullam ante diam, molestie eu nunc non, laoreet semper turpis. Ut tempor leo mi, id facilisis sapien vestibulum et.</p>
+                    </div>
+                    <div class="solution1" style="top :-700px">
+                        <img src="images/3.jpg">
+                        <p class="color">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce interdum nulla eget ligula posuere tristique. Curabitur eu tincidunt elit, vitae dignissim ipsum. Nunc et ultricies massa, et vulputate libero. Nullam ante diam, molestie eu nunc non, laoreet semper turpis. Ut tempor leo mi, id facilisis sapien vestibulum et.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--products-->
+        <div class="cont-products hei grid" id="products">
+            <h2 class="color title">Products</h2>
+            <div class="icon">
+                <i class="fas fa-th-large color class-active" data-class="grid"></i>
+                <i class="fas fa-list-ul color" data-class="list"></i>
+            </div>
+
+            <div class="products">
+                <div class="product">
+                    <h3 class="color">product 1</h3>
+                    <h5 class="color">28/ 10/ 2020</h5>
+                    <img src="images/1.jpg">
+                    <i class="fas fa-plus color ic-tog"></i>
+                    <p class="color">This product is very good</p>
+                </div>
+                <div class="product">
+                    <h3 class="color">product 2</h3>
+                    <h5 class="color">28/ 10/ 2020</h5>
+                    <img src="images/2.jpg">
+                    <i class="fas fa-plus color ic-tog"></i>
+                    <p class="color">This product is very good</p>
+                </div>
+                <div class="product">
+                    <h3 class="color">product 3</h3>
+                    <h5 class="color">28/ 10/ 2020</h5>
+                    <img src="images/3.jpg">
+                    <i class="fas fa-plus color ic-tog"></i>
+                    <p class="color">This product is very good</p>
+                </div>
+                <div class="product">
+                    <h3 class="color">product 4</h3>
+                    <h5 class="color">28/ 10/ 2020</h5>
+                    <img src="images/4.jpg">
+                    <i class="fas fa-plus color ic-tog"></i>
+                    <p class="color">This product is very good</p>
+                </div>
+                <div class="product">
+                    <h3 class="color">product 5</h3>
+                    <h5 class="color">28/ 10/ 2020</h5>
+                    <img src="images/5.jpg">
+                    <i class="fas fa-plus color ic-tog"></i>
+                    <p class="color">This product is very good</p>
+                </div>
+                <div class="product">
+                    <h3 class="color">product 6</h3>
+                    <h5 class="color">28/ 10/ 2020</h5>
+                    <img src="images/2.jpg">
+                    <i class="fas fa-plus color ic-tog"></i>
+                    <p class="color">This product is very good</p>
+                </div>
+            </div>
+        </div>
+
+        <!--contact us-->
+        <div class="contact hei" id="contact">
+            <h2 class="color title">Contact</h2>
+            <div class="cont-word"></div>
+            <form>
+                <div>
+                    <input type="text" placeholder="Enter Your name" class="color" required = "required">
+                    <span class="the-mess"></span>
+                    <span class="star">*</span>
+                </div>
+                <div>
+                    <input type="password" placeholder="Enter Password" class="color" required = "required" name="pass" maxlength="10">
+                    <span class="the-mess"></span>
+                    <span class="pass-mess"></span>
+                    <span class="star">*</span>
+                    <i class="fas fa-eye color"></i>
+                    <i class="fas fa-eye-slash color"></i>
+
+                </div>
+                <div>
+                    <input type="email" placeholder="Enter Your Email" class="color" required = "required">
+                    <span class="the-mess"></span>
+                    <span class="star">*</span>
+                </div>
+                <div>
+                    <textarea placeholder="Enter Your Message" class="color" required = "required"></textarea>
+                    <span class="the-mess"></span>
+                    <span class="star">*</span>
+
+                </div>
+                <input type="submit" value="Submit" class="color">
+            </form>
+            <div class="cont-icon">
+                <i class="fab fa-facebook fa-2x fa-fw face " title="Facebook"></i>
+                <i class="fab fa-whatsapp fa-2x fa-fw app " title="Whatsapp "></i>
+                <i class="fab fa-youtube fa-2x fa-fw tube " title="You Tube"></i>
+                <i class="fab fa-twitter fa-2x fa-fw twit " title="Twitter"></i>
+                <i class="fab fa-instagram fa-2x fa-fw insta " title="Instagram"></i>
+                <i class="fab fa-codepen fa-2x fa-fw pan " title="Codepan"></i>
+            </div>
+            <p class="color">By Osama &copy; 2021</p>
+        </div>
+        <!--to up-->
+        <a href="#" class="to-up">
+            <i class="fas fa-chevron-circle-up to-up color"></i>
+        </a>
+         <!--loading-->
+        <div class="loading">
+           <div class="spinner"></div>
+        </div>
+        <script src="js/jquery-3.5.1.min.js"></script>
+        <script src="js/jQ.js"></script>
+    </body>
+</html>
